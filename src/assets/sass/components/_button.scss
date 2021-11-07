@@ -1,0 +1,37 @@
+.btn {
+  display: inline-block;
+  border-radius: 50px 50px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: $font-md;
+  border: 0;
+  cursor: pointer;
+  padding: 1.5rem 3rem;
+  &:focus {
+    outline: none;
+  }
+
+  &--primary {
+    background-color: $white;
+    color: $veryDarkDesaturatedBlue;
+    transition: all 200ms ease-in-out;
+
+    &:hover,
+    &.active {
+      background-color: rgba($white, 0.5);
+      color: $white;
+    }
+  }
+  
+  &--secondary {
+    background-color: $yellow;
+    color: $veryDarkDesaturatedBlue;
+    transition: all 200ms ease-in-out;
+
+    &:hover,
+    &.active {
+      background-color: rgba($yellow, 0.5);
+      color: $veryDarkDesaturatedBlue;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap"); */
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../../fonts/Barlow-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../../fonts/Barlow-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../../fonts/Fraunces-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../../fonts/Fraunces-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: $grayishBlue;
+  font-size: $font-md;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fraunces';
+  color: $veryDarkDesaturatedBlue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}

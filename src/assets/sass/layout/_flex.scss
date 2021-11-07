@@ -1,0 +1,26 @@
+.flex {
+  &__col-lg-2 {
+    @include breakpoint-up("lg") {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    & > * {
+      flex: 0 1 50%;
+    }
+  }
+
+  &__item {
+    &--lg-center {
+      @include breakpoint-up("lg") {
+        align-self: center;
+      }
+    }
+  }
+
+  @for $i from 1 through 12 {
+    &__order#{$i} {
+      order: $i;
+    }
+  }
+}
